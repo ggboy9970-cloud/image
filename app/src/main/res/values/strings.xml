@@ -1,0 +1,1 @@
+<resources>\n    <string name="app_name">Плавающее изображение</string>\n    <string name="welcome_message">Добро пожаловать в приложение плавающего изображения!</string>\n    <string name="floating_image_description">Это приложение позволяет создавать плавающие изображения на вашем экране.</string>\n</resources>
