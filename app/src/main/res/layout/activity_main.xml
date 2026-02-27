@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>\n<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  \n    android:layout_width="match_parent"  \n    android:layout_height="match_parent"  \n    android:orientation="vertical">\n\n    <Button  \n        android:id="@+id/select_photo_button"  \n        android:layout_width="wrap_content"  \n        android:layout_height="wrap_content"  \n        android:text="Select Photo"/>\n\n    <TextView  \n        android:id="@+id/title"  \n        android:layout_width="wrap_content"  \n        android:layout_height="wrap_content"  \n        android:text="Photo Selector"  \n        android:textSize="24sp"/>\n\n    <TextView  \n        android:id="@+id/recent_images_label"  \n        android:layout_width="wrap_content"  \n        android:layout_height="wrap_content"  \n        android:text="Recent Images"/>\n\n    <ImageView  \n        android:id="@+id/image_preview"  \n        android:layout_width="match_parent"  \n        android:layout_height="200dp"  \n        android:contentDescription="Preview of Selected Image"/>\n\n    <androidx.recyclerview.widget.RecyclerView  \n        android:id="@+id/recycler_view"  \n        android:layout_width="match_parent"  \n        android:layout_height="wrap_content"/>\n\n</LinearLayout>\n
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sample_image"
+        android:contentDescription="Main Image" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
