@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>  <!-- Material Design Blue -->
+    <color name="colorPrimaryVariant">#3700B3</color>  <!-- Darker variant -->
+    <color name="colorSecondary">#03DAC5</color>  <!-- Teal -->
+    <color name="colorBackground">#FFFFFF</color>  <!-- White -->
+    <color name="colorSurface">#FFFFFF</color>  <!-- White -->
+    <color name="colorError">#B00020</color>  <!-- Red -->
+    <color name="colorOnPrimary">#FFFFFF</color>  <!-- White text on primary color -->
+    <color name="colorOnSecondary">#000000</color>  <!-- Black text on secondary color -->
+    <color name="colorOnBackground">#000000</color>  <!-- Black on white background -->
+    <color name="colorOnSurface">#000000</color>  <!-- Black on surface -->
+    <color name="colorOnError">#FFFFFF</color>  <!-- White text on error color -->
+</resources>
